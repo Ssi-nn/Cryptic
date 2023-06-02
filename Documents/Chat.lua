@@ -7,9 +7,6 @@
 local Variables = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Global/Variables.lua", true))()
 local Users = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Server/Users.lua", true))()
 
---> Show That Cryptic IS ON TOP! <--
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Documents/Welcome.lua", true))()
-
 local Players = game.Players or game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local ReplicatedStorage = game.ReplicatedStorage or game:GetService("ReplicatedStorage")
@@ -688,4 +685,5 @@ for _,Player in ipairs(Players:GetPlayers()) do
 end
 
 --> Loaded <--
+Chat("Cryptic #1 Admin 💪", "All")
 print("Cryptic on TOP! 💪")
