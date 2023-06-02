@@ -2,7 +2,6 @@
 --> So to counter that, in this update, since I am focused on stability, I made it just load it like normal, and less lag! Hoorayy!
 
 do
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Documents/Welcome.lua", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Documents/Chat.lua", true))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ssi-nn/Cryptic/main/Interface/Commands.lua", true))()
 end
